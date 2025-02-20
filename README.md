@@ -2,6 +2,7 @@
 
 <h2>Overview</h2>
 <p>This chatbot is designed to efficiently handle both document-based and web-based queries using advanced AI techniques. It has evolved through multiple versions, improving retrieval accuracy, workflow automation, and deployment.</p>
+<p>P.S.: Currently working to host it ^_^ </p>
 
 <h2>Features</h2>
 <ul>
