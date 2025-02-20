@@ -1,6 +1,41 @@
 <h1>AI Chatbot for Document & Web Search</h1>
-<p>"Developed a chatbot leveraging Fitz for PDF parsing, LangChain for structured retrieval, and FAISS for efficient vector
-database storage. Integrated OpenAI API for natural language understanding and Serper AI for real-time Google search capabilities.Currently enhancing the chatbot with Langraph for optimized workflow automation and Hugging Face embeddings to improve semantic search accuracy and response relevance. Currently working on the web application for the chatbot using sql, nodejs and html/css."</p>
-<h2> THE (1) FILE IS THE OLDER VERSION OF MY CHATBOT</h2>
-<h2> THE (2) FILE IS THE UPDATED ONE MADE USING FASTAPI AND HERE WE CAN UPLOAD ANY PDF AND ASK QUESTIONS</h2>
-<h3> >> CURRENTLY WORKING TO ADD Serper API TO IT</h3>
+
+<h2>Overview</h2>
+<p>This chatbot is designed to efficiently handle both document-based and web-based queries using advanced AI techniques. It has evolved through multiple versions, improving retrieval accuracy, workflow automation, and deployment.</p>
+
+<h2>Features</h2>
+<ul>
+  <li><strong>PDF Document Querying:</strong> Upload PDFs and extract answers from them.</li>
+  <li><strong>Web Search Integration:</strong> Uses Serper API for real-time Google search when document content is insufficient.</li>
+  <li><strong>AI-Powered Retrieval:</strong>
+    <ul>
+      <li><strong>LangChain</strong> for structured query processing.</li>
+      <li><strong>FAISS</strong> for vector database storage and semantic search.</li>
+      <li><strong>Hugging Face embeddings</strong> to enhance response relevance.</li>
+    </ul>
+  </li>
+  <li><strong>FastAPI & Streamlit Deployment:</strong>
+    <ul>
+      <li>Accessible via <strong>Swagger UI</strong> (FastAPI).</li>
+      <li>User-friendly interface with <strong>Streamlit</strong>.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>Files & Versions</h2>
+<ul>
+  <li><strong>chatbot_app.ipynb</strong> – Core chatbot logic using FastAPI.</li>
+  <li><strong>streamlit_app.py</strong> – Streamlit web app for chatbot interaction.</li>
+  <li><strong>Older Versions:</strong>
+    <ul>
+      <li><strong>Chatbot_RAG_langchain (1).ipynb</strong> – Initial version of the chatbot.</li>
+      <li><strong>Chatbot_RAG_langchain (2).ipynb</strong> – Upgraded with FastAPI, PDF handling, and Q&A support.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>Next Steps</h2>
+<ul>
+  <li><strong>Serper API Integration</strong> for enhanced web search.</li>
+  <li><strong>Optimizing the chatbot’s pipeline</strong> for improved accuracy and efficiency.</li>
+</ul>
