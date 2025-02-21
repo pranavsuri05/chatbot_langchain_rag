@@ -25,7 +25,7 @@
 
 <h2>Files & Versions</h2>
 <ul>
-  <li><strong>chatbot_app.ipynb</strong> – Core chatbot logic using FastAPI.</li>
+  <li><strong>chatbot_app(2).ipynb</strong> – Core chatbot logic using FastAPI.</li>
   <li><strong>streamlit_app.py</strong> – Streamlit web app for chatbot interaction.</li>
   <li><strong>Older Versions:</strong>
     <ul>
